@@ -1,6 +1,42 @@
 .App {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
+
+.form-inner {
+  background-color: rgba(225, 225, 225, 0.267);
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-inner-name {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+}
+
+.form-inner-name>div {
+  width: fit-content;
+
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  text-align: left;
+  width: fit-content;
+}
+
+.credentials {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
 
 .App-logo {
   height: 40vmin;
@@ -23,16 +59,20 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+/* .coursePage {
+  text-align: left;
+} */
 
-.App-link {
-  color: #61dafb;
+
+.coursePage ul {
+  margin: 0 auto;
+  width: 30%;
+  list-style: none;
+  text-align: left;
+  padding: 20px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.error {
+  color:tomato;
+  font-weight: bold;
 }
